@@ -10,6 +10,7 @@
     tools:context="mg.studio.weatherappdesign.MainActivity">
 
     <TextView
+        android:id="@+id/topDate"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="10dp"
@@ -171,11 +172,13 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/icon_next"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 app:srcCompat="@drawable/rainy_small" />
 
             <TextView
+                android:id="@+id/date_next"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -192,11 +195,13 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/icon_nnext"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 app:srcCompat="@drawable/partly_sunny_small" />
 
             <TextView
+                android:id="@+id/date_nnext"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -213,11 +218,13 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/icon_nnnext"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 app:srcCompat="@drawable/windy_small" />
 
             <TextView
+                android:id="@+id/date_nnnext"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -234,11 +241,13 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/icon_nnnnext"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 app:srcCompat="@drawable/sunny_small" />
 
             <TextView
+                android:id="@+id/date_nnnnext"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"

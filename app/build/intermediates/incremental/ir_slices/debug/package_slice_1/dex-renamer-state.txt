@@ -1,0 +1,4 @@
+#Mon Mar 04 20:32:37 CST 2019
+base.0=C\:\\Users\\18240\\Desktop\\Mobile application development\\weather-application\\weather-application\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.0=classes.dex
+renamed.0=classes.dex
